@@ -7,6 +7,7 @@ ACTIONS
 | object     | action                   | link |
 | ---------- | ------------------------ | ---- |
 | mongodb    | ./main mongodb install   |      |
+| mongodb    | ./main mongodb  start    |      |
 
 TEST
 ---------------
