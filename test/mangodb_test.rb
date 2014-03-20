@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-class RubyTest < MiniTest::Unit::TestCase
+class MongodbTest < MiniTest::Unit::TestCase
 	def test_mongodb_install
 		puts ""
 		puts "test mongodb"

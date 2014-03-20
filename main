@@ -17,4 +17,13 @@ function mongodb_ruby
 	gem install bson
 	gem install bson_ext
 }
+function es_install
+{
+	brew update
+	brew install elasticsearch
+}
+function es_start
+{
+	elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml
+}
 ${1}_${2} ${3} ${4} ${5} ${6} ${7} ${8} ${9}
