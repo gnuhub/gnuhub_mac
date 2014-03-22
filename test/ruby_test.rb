@@ -1,18 +1,12 @@
 require 'minitest/autorun'
 class SshCopyIdTest < MiniTest::Unit::TestCase
 	def test_ibm_db_install
-		puts ""
-		puts "test ibm_db gem"
 		s = %x(gem list)
-		puts s
 		b = s.include? "ibm_db"
 		assert(b,"ibm_db gem is not installed")
 	end
 	def test_ruby_install
-		puts ""
-		puts "test ruby install"
 		s = %x(gem list)
-		puts s
 		b1 = s.include? "bundler"
 		assert(b1,"bundler gem is not installed")
 		b2 = s.include? "pry"
